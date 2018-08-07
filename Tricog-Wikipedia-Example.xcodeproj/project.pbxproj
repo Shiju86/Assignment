@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46D3B9812119F7C500CE7580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9802119F7C500CE7580 /* AppDelegate.swift */; };
+		46D3B9832119F7C500CE7580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9822119F7C500CE7580 /* ViewController.swift */; };
+		46D3B9862119F7C500CE7580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D3B9842119F7C500CE7580 /* Main.storyboard */; };
+		46D3B9892119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9872119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld */; };
+		46D3B98B2119F7C800CE7580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D3B98A2119F7C800CE7580 /* Assets.xcassets */; };
+		46D3B98E2119F7C800CE7580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D3B98C2119F7C800CE7580 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		46D3B97D2119F7C500CE7580 /* Tricog-Wikipedia-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tricog-Wikipedia-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		46D3B9802119F7C500CE7580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		46D3B9822119F7C500CE7580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46D3B9852119F7C500CE7580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		46D3B9882119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tricog_Wikipedia_Example.xcdatamodel; sourceTree = "<group>"; };
+		46D3B98A2119F7C800CE7580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		46D3B98D2119F7C800CE7580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		46D3B98F2119F7C800CE7580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46D3B97A2119F7C500CE7580 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46D3B9742119F7C500CE7580 = {
+			isa = PBXGroup;
+			children = (
+				46D3B97F2119F7C500CE7580 /* Tricog-Wikipedia-Example */,
+				46D3B97E2119F7C500CE7580 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46D3B97E2119F7C500CE7580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B97D2119F7C500CE7580 /* Tricog-Wikipedia-Example.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46D3B97F2119F7C500CE7580 /* Tricog-Wikipedia-Example */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B9802119F7C500CE7580 /* AppDelegate.swift */,
+				46D3B9822119F7C500CE7580 /* ViewController.swift */,
+				46D3B9842119F7C500CE7580 /* Main.storyboard */,
+				46D3B98A2119F7C800CE7580 /* Assets.xcassets */,
+				46D3B98C2119F7C800CE7580 /* LaunchScreen.storyboard */,
+				46D3B98F2119F7C800CE7580 /* Info.plist */,
+				46D3B9872119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld */,
+			);
+			path = "Tricog-Wikipedia-Example";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46D3B97C2119F7C500CE7580 /* Tricog-Wikipedia-Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46D3B9922119F7C800CE7580 /* Build configuration list for PBXNativeTarget "Tricog-Wikipedia-Example" */;
+			buildPhases = (
+				46D3B9792119F7C500CE7580 /* Sources */,
+				46D3B97A2119F7C500CE7580 /* Frameworks */,
+				46D3B97B2119F7C500CE7580 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Tricog-Wikipedia-Example";
+			productName = "Tricog-Wikipedia-Example";
+			productReference = 46D3B97D2119F7C500CE7580 /* Tricog-Wikipedia-Example.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46D3B9752119F7C500CE7580 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = Shiju;
+				TargetAttributes = {
+					46D3B97C2119F7C500CE7580 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 46D3B9782119F7C500CE7580 /* Build configuration list for PBXProject "Tricog-Wikipedia-Example" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 46D3B9742119F7C500CE7580;
+			productRefGroup = 46D3B97E2119F7C500CE7580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46D3B97C2119F7C500CE7580 /* Tricog-Wikipedia-Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46D3B97B2119F7C500CE7580 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D3B98E2119F7C800CE7580 /* LaunchScreen.storyboard in Resources */,
+				46D3B98B2119F7C800CE7580 /* Assets.xcassets in Resources */,
+				46D3B9862119F7C500CE7580 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46D3B9792119F7C500CE7580 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46D3B9832119F7C500CE7580 /* ViewController.swift in Sources */,
+				46D3B9812119F7C500CE7580 /* AppDelegate.swift in Sources */,
+				46D3B9892119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		46D3B9842119F7C500CE7580 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D3B9852119F7C500CE7580 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		46D3B98C2119F7C800CE7580 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				46D3B98D2119F7C800CE7580 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		46D3B9902119F7C800CE7580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		46D3B9912119F7C800CE7580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46D3B9932119F7C800CE7580 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tricog-Wikipedia-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Tricog-Wikipedia-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		46D3B9942119F7C800CE7580 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Tricog-Wikipedia-Example/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com..Tricog-Wikipedia-Example";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46D3B9782119F7C500CE7580 /* Build configuration list for PBXProject "Tricog-Wikipedia-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D3B9902119F7C800CE7580 /* Debug */,
+				46D3B9912119F7C800CE7580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46D3B9922119F7C800CE7580 /* Build configuration list for PBXNativeTarget "Tricog-Wikipedia-Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46D3B9932119F7C800CE7580 /* Debug */,
+				46D3B9942119F7C800CE7580 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		46D3B9872119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				46D3B9882119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodel */,
+			);
+			currentVersion = 46D3B9882119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodel */;
+			path = Tricog_Wikipedia_Example.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 46D3B9752119F7C500CE7580 /* Project object */;
+}
