@@ -7,23 +7,55 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		361C40B6CCDE0810A2FE2F12 /* Pods_Tricog_Wikipedia_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CB6437C8CD726775D5CFA59 /* Pods_Tricog_Wikipedia_Example.framework */; };
+		46C8D4D8211B495A00FA4D99 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46C8D4D7211B495A00FA4D99 /* PersistenceManager.swift */; };
+		46C8D4DA211B5BFF00FA4D99 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C8D4D9211B5BFE00FA4D99 /* CoreData.framework */; };
 		46D3B9812119F7C500CE7580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9802119F7C500CE7580 /* AppDelegate.swift */; };
-		46D3B9832119F7C500CE7580 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9822119F7C500CE7580 /* ViewController.swift */; };
+		46D3B9832119F7C500CE7580 /* WikipediaVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9822119F7C500CE7580 /* WikipediaVC.swift */; };
 		46D3B9862119F7C500CE7580 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D3B9842119F7C500CE7580 /* Main.storyboard */; };
 		46D3B9892119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9872119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld */; };
 		46D3B98B2119F7C800CE7580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 46D3B98A2119F7C800CE7580 /* Assets.xcassets */; };
 		46D3B98E2119F7C800CE7580 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 46D3B98C2119F7C800CE7580 /* LaunchScreen.storyboard */; };
+		46D3B9C5211A100D00CE7580 /* WikipediaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9C4211A100D00CE7580 /* WikipediaModel.swift */; };
+		46D3B9CC211A103000CE7580 /* Api+Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9C8211A103000CE7580 /* Api+Constants.swift */; };
+		46D3B9CD211A103000CE7580 /* Indicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9C9211A103000CE7580 /* Indicator.swift */; };
+		46D3B9CE211A103000CE7580 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9CA211A103000CE7580 /* WebService.swift */; };
+		46D3B9CF211A103000CE7580 /* StatusHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9CB211A103000CE7580 /* StatusHandler.swift */; };
+		46D3B9D2211A12A400CE7580 /* AlertConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9D1211A12A400CE7580 /* AlertConstant.swift */; };
+		46D3B9D7211A133800CE7580 /* AlertControllerHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9D5211A133800CE7580 /* AlertControllerHandler.swift */; };
+		46D3B9DB211A1A6A00CE7580 /* Wikipedia+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 46D3B9DA211A1A6A00CE7580 /* Wikipedia+Extension.swift */; };
+		EC8B6963211ABB3B0005D5CD /* WikipediaSearchTableCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B6962211ABB3B0005D5CD /* WikipediaSearchTableCell.swift */; };
+		EC8B6965211AC7B60005D5CD /* AllExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B6964211AC7B60005D5CD /* AllExtensions.swift */; };
+		EC8B696A211B12EC0005D5CD /* Person+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B6968211B12EC0005D5CD /* Person+CoreDataClass.swift */; };
+		EC8B696B211B12EC0005D5CD /* Person+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC8B6969211B12EC0005D5CD /* Person+CoreDataProperties.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1913BB4817C4A7A90EF6F211 /* Pods-Tricog-Wikipedia-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tricog-Wikipedia-Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tricog-Wikipedia-Example/Pods-Tricog-Wikipedia-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		46C8D4D7211B495A00FA4D99 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		46C8D4D9211B5BFE00FA4D99 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		46D3B97D2119F7C500CE7580 /* Tricog-Wikipedia-Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Tricog-Wikipedia-Example.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		46D3B9802119F7C500CE7580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		46D3B9822119F7C500CE7580 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		46D3B9822119F7C500CE7580 /* WikipediaVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaVC.swift; sourceTree = "<group>"; };
 		46D3B9852119F7C500CE7580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		46D3B9882119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tricog_Wikipedia_Example.xcdatamodel; sourceTree = "<group>"; };
 		46D3B98A2119F7C800CE7580 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		46D3B98D2119F7C800CE7580 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		46D3B98F2119F7C800CE7580 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		46D3B9C4211A100D00CE7580 /* WikipediaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaModel.swift; sourceTree = "<group>"; };
+		46D3B9C8211A103000CE7580 /* Api+Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Api+Constants.swift"; sourceTree = "<group>"; };
+		46D3B9C9211A103000CE7580 /* Indicator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Indicator.swift; sourceTree = "<group>"; };
+		46D3B9CA211A103000CE7580 /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		46D3B9CB211A103000CE7580 /* StatusHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatusHandler.swift; sourceTree = "<group>"; };
+		46D3B9D1211A12A400CE7580 /* AlertConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertConstant.swift; sourceTree = "<group>"; };
+		46D3B9D5211A133800CE7580 /* AlertControllerHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertControllerHandler.swift; sourceTree = "<group>"; };
+		46D3B9DA211A1A6A00CE7580 /* Wikipedia+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Wikipedia+Extension.swift"; sourceTree = "<group>"; };
+		5CB6437C8CD726775D5CFA59 /* Pods_Tricog_Wikipedia_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tricog_Wikipedia_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE55B966F807BF609B5BFF7D /* Pods-Tricog-Wikipedia-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tricog-Wikipedia-Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tricog-Wikipedia-Example/Pods-Tricog-Wikipedia-Example.release.xcconfig"; sourceTree = "<group>"; };
+		EC8B6962211ABB3B0005D5CD /* WikipediaSearchTableCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WikipediaSearchTableCell.swift; sourceTree = "<group>"; };
+		EC8B6964211AC7B60005D5CD /* AllExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllExtensions.swift; sourceTree = "<group>"; };
+		EC8B6968211B12EC0005D5CD /* Person+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataClass.swift"; sourceTree = "<group>"; };
+		EC8B6969211B12EC0005D5CD /* Person+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Person+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +63,59 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				46C8D4DA211B5BFF00FA4D99 /* CoreData.framework in Frameworks */,
+				361C40B6CCDE0810A2FE2F12 /* Pods_Tricog_Wikipedia_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E8E09E2DB1531B544A0FF47 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1913BB4817C4A7A90EF6F211 /* Pods-Tricog-Wikipedia-Example.debug.xcconfig */,
+				AE55B966F807BF609B5BFF7D /* Pods-Tricog-Wikipedia-Example.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		208CA6B409A191170C24337F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				46C8D4D9211B5BFE00FA4D99 /* CoreData.framework */,
+				5CB6437C8CD726775D5CFA59 /* Pods_Tricog_Wikipedia_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		46C8D4D6211B493900FA4D99 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B9872119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld */,
+				EC8B6968211B12EC0005D5CD /* Person+CoreDataClass.swift */,
+				EC8B6969211B12EC0005D5CD /* Person+CoreDataProperties.swift */,
+				46C8D4D7211B495A00FA4D99 /* PersistenceManager.swift */,
+			);
+			name = CoreData;
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		46C8D4DD211B66DA00FA4D99 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				EC8B6964211AC7B60005D5CD /* AllExtensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		46D3B9742119F7C500CE7580 = {
 			isa = PBXGroup;
 			children = (
 				46D3B97F2119F7C500CE7580 /* Tricog-Wikipedia-Example */,
 				46D3B97E2119F7C500CE7580 /* Products */,
+				1E8E09E2DB1531B544A0FF47 /* Pods */,
+				208CA6B409A191170C24337F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +130,89 @@
 		46D3B97F2119F7C500CE7580 /* Tricog-Wikipedia-Example */ = {
 			isa = PBXGroup;
 			children = (
-				46D3B9802119F7C500CE7580 /* AppDelegate.swift */,
-				46D3B9822119F7C500CE7580 /* ViewController.swift */,
-				46D3B9842119F7C500CE7580 /* Main.storyboard */,
+				46D3B9D0211A103A00CE7580 /* Helper */,
+				46D3B9BF211A0F9800CE7580 /* AppDelegate */,
+				46D3B9C1211A0FAA00CE7580 /* MVC */,
 				46D3B98A2119F7C800CE7580 /* Assets.xcassets */,
-				46D3B98C2119F7C800CE7580 /* LaunchScreen.storyboard */,
 				46D3B98F2119F7C800CE7580 /* Info.plist */,
-				46D3B9872119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld */,
 			);
 			path = "Tricog-Wikipedia-Example";
+			sourceTree = "<group>";
+		};
+		46D3B9BF211A0F9800CE7580 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B9802119F7C500CE7580 /* AppDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		46D3B9C1211A0FAA00CE7580 /* MVC */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B9C6211A101200CE7580 /* Model */,
+				46D3B9C3211A0FC000CE7580 /* View */,
+				46D3B9C2211A0FB700CE7580 /* Controller */,
+			);
+			path = MVC;
+			sourceTree = "<group>";
+		};
+		46D3B9C2211A0FB700CE7580 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B9822119F7C500CE7580 /* WikipediaVC.swift */,
+				46D3B9DA211A1A6A00CE7580 /* Wikipedia+Extension.swift */,
+				EC8B6962211ABB3B0005D5CD /* WikipediaSearchTableCell.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		46D3B9C3211A0FC000CE7580 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B98C2119F7C800CE7580 /* LaunchScreen.storyboard */,
+				46D3B9842119F7C500CE7580 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		46D3B9C6211A101200CE7580 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B9C4211A100D00CE7580 /* WikipediaModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		46D3B9C7211A103000CE7580 /* NetworkInterface */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B9C8211A103000CE7580 /* Api+Constants.swift */,
+				46D3B9C9211A103000CE7580 /* Indicator.swift */,
+				46D3B9CA211A103000CE7580 /* WebService.swift */,
+				46D3B9CB211A103000CE7580 /* StatusHandler.swift */,
+			);
+			path = NetworkInterface;
+			sourceTree = "<group>";
+		};
+		46D3B9D0211A103A00CE7580 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				46C8D4D6211B493900FA4D99 /* CoreData */,
+				46D3B9D4211A133800CE7580 /* AlertController */,
+				46D3B9C7211A103000CE7580 /* NetworkInterface */,
+				46C8D4DD211B66DA00FA4D99 /* Extension */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		46D3B9D4211A133800CE7580 /* AlertController */ = {
+			isa = PBXGroup;
+			children = (
+				46D3B9D5211A133800CE7580 /* AlertControllerHandler.swift */,
+				46D3B9D1211A12A400CE7580 /* AlertConstant.swift */,
+			);
+			path = AlertController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 46D3B9922119F7C800CE7580 /* Build configuration list for PBXNativeTarget "Tricog-Wikipedia-Example" */;
 			buildPhases = (
+				17F0CB5020339C3CA09916A4 /* [CP] Check Pods Manifest.lock */,
 				46D3B9792119F7C500CE7580 /* Sources */,
 				46D3B97A2119F7C500CE7580 /* Frameworks */,
 				46D3B97B2119F7C500CE7580 /* Resources */,
+				9ECDD2CAE825F1DD61CA032E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,14 +283,74 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		17F0CB5020339C3CA09916A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tricog-Wikipedia-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9ECDD2CAE825F1DD61CA032E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Tricog-Wikipedia-Example/Pods-Tricog-Wikipedia-Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/IQKeyboardManagerSwift/IQKeyboardManagerSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/IQKeyboardManagerSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tricog-Wikipedia-Example/Pods-Tricog-Wikipedia-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		46D3B9792119F7C500CE7580 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				46D3B9832119F7C500CE7580 /* ViewController.swift in Sources */,
+				46D3B9CF211A103000CE7580 /* StatusHandler.swift in Sources */,
+				EC8B6965211AC7B60005D5CD /* AllExtensions.swift in Sources */,
+				EC8B696A211B12EC0005D5CD /* Person+CoreDataClass.swift in Sources */,
+				46D3B9DB211A1A6A00CE7580 /* Wikipedia+Extension.swift in Sources */,
+				46D3B9D2211A12A400CE7580 /* AlertConstant.swift in Sources */,
+				46D3B9832119F7C500CE7580 /* WikipediaVC.swift in Sources */,
+				46D3B9D7211A133800CE7580 /* AlertControllerHandler.swift in Sources */,
+				46D3B9CD211A103000CE7580 /* Indicator.swift in Sources */,
+				46D3B9CE211A103000CE7580 /* WebService.swift in Sources */,
 				46D3B9812119F7C500CE7580 /* AppDelegate.swift in Sources */,
+				46C8D4D8211B495A00FA4D99 /* PersistenceManager.swift in Sources */,
 				46D3B9892119F7C500CE7580 /* Tricog_Wikipedia_Example.xcdatamodeld in Sources */,
+				EC8B696B211B12EC0005D5CD /* Person+CoreDataProperties.swift in Sources */,
+				46D3B9CC211A103000CE7580 /* Api+Constants.swift in Sources */,
+				EC8B6963211ABB3B0005D5CD /* WikipediaSearchTableCell.swift in Sources */,
+				46D3B9C5211A100D00CE7580 /* WikipediaModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,16 +492,20 @@
 		};
 		46D3B9932119F7C800CE7580 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1913BB4817C4A7A90EF6F211 /* Pods-Tricog-Wikipedia-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Tricog-Wikipedia-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com..Tricog-Wikipedia-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,16 +513,20 @@
 		};
 		46D3B9942119F7C800CE7580 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE55B966F807BF609B5BFF7D /* Pods-Tricog-Wikipedia-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = "Tricog-Wikipedia-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com..Tricog-Wikipedia-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
